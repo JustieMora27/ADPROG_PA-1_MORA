@@ -16,31 +16,10 @@ classes are not required.
 • Test each function using the examples provided. Additional valid inputs may be used when grading
 the notebook.
 
-### --------------------------------------------------------------------------------------------------------------------------------
+### -----------------------------------------------------------------------------------------------------------------------------
 
 ### A. WORD ROTATION PROBLEM
-A string rotation involves shifting characters along a sequence without changing their relative orders.
-In this problem, the operation only moves the beginning and end of the string.
 
-* `rotate_word(text)` - accesses string elements using sequence slicing.
-  
-* `text[1:]` - extracts a substring containing everything from index `1`. It continues up to the end of the string because of the symbol `:`, which mean "from this position to the end".
-
-	*Example: `"hello"[1:] = "ello"`*
-
-	It extracted from index `1` ("e") up to the end of the string.
-
-* `text[0]` - targets the single character at index `0`.
-
-  *Example: `"hello"[0] = "h"`*
-
-	It extracted only index `0` ("h")
-
-Combining these expressions (`text[1:] + text[0]`) effectively places the first character at the end of the string, forming the rotated word.
-
-*Example: `rotate_word("hello") = "elloh"`*
-
-<img width="1189" height="158" alt="Screenshot 2026-08-23 085209" src="https://github.com/user-attachments/assets/9ace0acc-6d1b-4959-a09c-797bcd456fa3" />
 
 ### B. USERNAME BUILDER PROBLEM
 Generating standardized user inputs requires cleaning up formatting discrepancies such as mixed capitalizations and removing spaces across multiple word inputs before combining them.
