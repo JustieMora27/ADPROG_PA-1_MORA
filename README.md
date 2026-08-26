@@ -16,7 +16,7 @@ classes are not required.
 • Test each function using the examples provided. Additional valid inputs may be used when grading
 the notebook.
 
-###------------------------------------------------------------------------------------------------------------------
+### ---------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### A. WORD ROTATION PROBLEM
 A string rotation involves shifting characters along a sequence without changing their relative orders.
