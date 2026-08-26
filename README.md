@@ -1,2 +1,2 @@
-# ADPROG_PA-1_MORA
+# ADPROG PA 1 
 PA #1 for Advanced Programming ECE2112
