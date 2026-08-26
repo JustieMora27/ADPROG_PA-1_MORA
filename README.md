@@ -16,7 +16,7 @@ classes are not required.
 • Test each function using the examples provided. Additional valid inputs may be used when grading
 the notebook.
 
-### -----------------------------------------------------------------------------------------------------------------------------
+### ------------------------------------------------------------------------------------------------------------
 
 ### A. WORD ROTATION PROBLEM
 <img width="493" height="561" alt="image" src="https://github.com/user-attachments/assets/6ced1e82-f124-4f21-8ce6-8acc3997c014" />
