@@ -1,5 +1,5 @@
 # ECE2112 PA 1
-### Instructions
+## Instructions
 Write a Python program in a Jupyter Notebook to solve each of the following problems.
 
 • Use the exact function names specified in each problem.
