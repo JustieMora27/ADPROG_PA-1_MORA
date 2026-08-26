@@ -20,7 +20,9 @@ the notebook.
 
 ### A. WORD ROTATION PROBLEM
 <img width="493" height="561" alt="image" src="https://github.com/user-attachments/assets/6ced1e82-f124-4f21-8ce6-8acc3997c014" />
+
 ### Explanation:
+
 What The rotate_word function does is it moves the first character of a string to the end using string slicing while maintaining the capitalization of that specific letter. For example, we have Justie. It starts with the letter J and is capitalized. After running the code, the capitalized letter J will go at the end of the string, which gives us ustieJ.
 
 ### B. USERNAME BUILDER PROBLEM
