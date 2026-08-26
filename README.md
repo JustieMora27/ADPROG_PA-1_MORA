@@ -16,7 +16,7 @@ classes are not required.
 • Test each function using the examples provided. Additional valid inputs may be used when grading
 the notebook.
 
-### ------------------------------------------------------------------------------------------------------------
+### --------------------------------------------------------------------------------------------------------
 
 ### A. WORD ROTATION PROBLEM
 <img width="493" height="561" alt="image" src="https://github.com/user-attachments/assets/6ced1e82-f124-4f21-8ce6-8acc3997c014" />
@@ -26,7 +26,7 @@ the notebook.
 What The rotate_word function does is it moves the first character of a string to the end using string slicing while maintaining the capitalization of that specific letter. For example, we have Justie. It starts with the letter J and is capitalized. After running the code, the capitalized letter J will go at the end of the string, which gives us ustieJ.
 
 
-### -----------------------------------------------------------------------------------------------------------------------------
+### --------------------------------------------------------------------------------------------------------
 
 
 ### B. USERNAME BUILDER PROBLEM
@@ -37,7 +37,7 @@ What The rotate_word function does is it moves the first character of a string t
 The make_username function builds a lowercase username by cleaning up both name inputs and combining them with a period. The order of the two characters within the string is maintained, each letter's transformed to lowercase by utilizing the .lower() code. For example, the string Lebron James' order of letters is maintained however, all letters are now lowercase and are separated by a period instead.
 
 
-### -----------------------------------------------------------------------------------------------------------------------------
+### --------------------------------------------------------------------------------------------------------
 
 
 ### C. BOOKEND SWAP PROBLEM
