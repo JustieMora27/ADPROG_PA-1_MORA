@@ -34,10 +34,16 @@ What The rotate_word function does is it moves the first character of a string t
 
 ### Explanation:
 
-The make_username function builds a lowercase username by cleaning up both name inputs and combining them with a period. The order of the two characters within the string is maintained, each letter's transformed to lowercase by utilizing the .lower() code.
+The make_username function builds a lowercase username by cleaning up both name inputs and combining them with a period. The order of the two characters within the string is maintained, each letter's transformed to lowercase by utilizing the .lower() code. For example, the string Lebron James' order of letters is maintained however, all letters are now lowercase and are separated by a period instead.
 
 
 ### -----------------------------------------------------------------------------------------------------------------------------
 
 
 ### C. BOOKEND SWAP PROBLEM
+<img width="655" height="476" alt="image" src="https://github.com/user-attachments/assets/b51b232f-aa19-4e88-9465-0f9653bc8d89" />
+
+### Explanation:
+
+The swap_bookends function swaps the first and last items of a list while keeping all middle items in their original order. For example, in 1 to 6, only 1 and 6 swapped places, the rest of them didn't switch. So if you only have 2 characters then they are simply going to switch.
+
