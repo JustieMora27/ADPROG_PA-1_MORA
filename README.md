@@ -26,21 +26,11 @@ the notebook.
 What The rotate_word function does is it moves the first character of a string to the end using string slicing while maintaining the capitalization of that specific letter. For example, we have Justie. It starts with the letter J and is capitalized. After running the code, the capitalized letter J will go at the end of the string, which gives us ustieJ.
 
 ### B. USERNAME BUILDER PROBLEM
-Generating standardized user inputs requires cleaning up formatting discrepancies such as mixed capitalizations and removing spaces across multiple word inputs before combining them.
+<img width="628" height="506" alt="image" src="https://github.com/user-attachments/assets/39d3cbec-4640-4e05-8921-3e57ecb38d91" />
 
-* `.lower()` - converts all uppercase characters acroos both input strings to lowercase to ensure consistency.
+### Explanation:
 
-	*Example: `"John".lower() = "john"`*
-  
-* `.replace(" ", "")` - replaces every space characters with an empty string, effectively removing all spaces wether they occur between words or at boundaries.
-
-  *Example: `"De Leon".replace(" ", "") = "DeLeon"`*
-  
-* `+ "." +` - joins the processed strings using a period as a connector
-
-	*Example: `"ana" + "." + "maria" = "ana.maria"`*
-
-<img width="1189" height="223" alt="image" src="https://github.com/user-attachments/assets/f0a6ae7c-2e63-405c-a996-d382793f5e12" />
+The make_username function builds a lowercase username by cleaning up both name inputs and combining them with a period. The order of the two characters within the string is maintained, each letter's transformed to lowercase by utilizing the .lower() code.
 
 ### C. BOOKEND SWAP PROBLEM
 Swapping boundary elements of a list requires isolating the first and last elements while leaving the middle elements untouched and preserving the original list structure.
